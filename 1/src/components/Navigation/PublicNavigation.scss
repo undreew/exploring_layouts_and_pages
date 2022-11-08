@@ -1,0 +1,29 @@
+.public-navigation {
+	width: 100%;
+
+	.public-navigation__content {
+		width: 90vw;
+		max-width: 1190px;
+		margin: auto;
+
+		padding: 1rem 0rem;
+
+		display: flex;
+		justify-content: space-between;
+
+		.public-navigation__content-brand {
+			display: flex;
+			align-items: center;
+		}
+
+		.public-navigation__content-brand a {
+			text-decoration: none;
+			color: var(--black);
+		}
+
+		.public-navigation__content-items {
+			display: flex;
+			gap: 1rem;
+		}
+	}
+}
